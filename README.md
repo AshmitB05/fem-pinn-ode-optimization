@@ -14,13 +14,14 @@ The goal is to build a foundational understanding of both classical numerical me
 
 ## Repository Structure
 ```
-├── FEM Codes/ # Classical FEM implementations, including SUPG stabilization for convection-dominated problems
+├── FEM Codes/ 
+| └── Classical FEM implementations, including SUPG stabilization for convection-dominated problems
 │
-├── PINNS Codes/ #Implementations of PINNs, Variational PINNs, and Least-Squares Nonconforming FEM-inspired PINNs using PyTorch
+├── PINNS Codes/Implementations of PINNs, Variational PINNs, and Least-Squares Nonconforming FEM-inspired PINNs using PyTorch
 │
-├── PDAS/ # Primal-Dual Active Set (PDAS) algorithm for ODE-constrained optimization problems — applied to minimizing the potential energy of an elastic string
+├── PDAS/ Primal-Dual Active Set (PDAS) algorithm for ODE-constrained optimization problems — applied to minimizing the potential energy of an elastic string
 │
-├── PINNs and Neural Networks for Practice/ # Practice implementations of PINNs and basic neural networks from scratch, also in PyTorch
+├── PINNs and Neural Networks for Practice/ Practice implementations of PINNs and basic neural networks from scratch, also in PyTorch
 │
 ├── README.md # Project documentation (this file)
 ```
