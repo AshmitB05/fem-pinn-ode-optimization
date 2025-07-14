@@ -13,6 +13,7 @@ This project explores the following topics:
 The goal is to build a foundational understanding of both classical numerical methods and modern machine learning-based solvers in the 1D (ODE) setting, while laying the groundwork for extending these techniques to PDE-based problems and higher dimensions.
 
 ## Repository Structure
+```
 ├── FEM Codes/ # Classical FEM implementations, including SUPG stabilization for convection-dominated problems
 │
 ├── PINNS Codes/ #Implementations of PINNs, Variational PINNs, and Least-Squares Nonconforming FEM-inspired PINNs using PyTorch
@@ -22,7 +23,7 @@ The goal is to build a foundational understanding of both classical numerical me
 ├── PINNs and Neural Networks for Practice/ # Practice implementations of PINNs and basic neural networks from scratch, also in PyTorch
 │
 ├── README.md # Project documentation (this file)
-
+```
 ## Technologies Used
 
 - Python 3.9  
