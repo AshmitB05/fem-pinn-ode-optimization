@@ -1,7 +1,7 @@
 # fem-pinn-ode-optimization
 A research project exploring the Finite Element Method (FEM) and Physics-Informed Neural Networks (PINNs) for general one-dimensional second-order differential equations and convection-dominated ODEs. The project also involved formulating an obstacle problem for an elastic string as an ODE-constrained optimization problem and solving it using the Primal-Dual Active Set (PDAS) algorithm. This work was carried out during a summer internship at IISc Bangalore under the guidance of Prof. Thirupathi Gudi.
 
-## 📘 Overview
+## Overview
 
 This project explores the following topics:
 
@@ -12,27 +12,13 @@ This project explores the following topics:
 
 The goal is to build a foundational understanding of both classical numerical methods and modern machine learning-based solvers in the 1D (ODE) setting, while laying the groundwork for extending these techniques to PDE-based problems and higher dimensions.
 
-## Repository Structure
-├── FEM Codes/
-│ └── Classical FEM implementations, including SUPG stabilization for convection-dominated problems
-│
-├── PINNS Codes/
-│ └── Implementations of PINNs, Variational PINNs, and Least-Squares Nonconforming FEM-inspired PINNs using PyTorch
-│
-├── PDAS/
-│ └── Primal-Dual Active Set (PDAS) algorithm for ODE-constrained optimization problems — applied to minimizing the potential energy of an elastic string
-│
-├── PINNs and Neural Networks for Practice/
-│ └── Practice implementations of PINNs and basic neural networks from scratch, also in PyTorch
-│
-├── README.md
-│ └── Project documentation (this file)
+<pre> ## Repository Structure ``` FEM Codes/ Classical FEM implementations, including SUPG stabilization for convection-dominated problems PINNS Codes/ Implementations of PINNs, Variational PINNs, and LSNC FEM-inspired PINNs using PyTorch PDAS/ Primal-Dual Active Set (PDAS) algorithm for ODE-constrained optimization problems — applied to minimizing the potential energy of an elastic string PINNs and Neural Networks for Practice/ Practice implementations of PINNs and basic neural networks from scratch, also in PyTorch README.md Project documentation (this file) ``` </pre>
 
 ## Technologies Used
 
 - Python 3.9  
 - NumPy, SymPy (symbolic derivation for FEM)
-- Sckit-FEM, SciPy
+- sckit-fem, SciPy
 - PyTorch (neural network & optimization modules)  
 - Matplotlib (visualization)
 
